@@ -10,7 +10,6 @@ This is a quick demo project I use for daily practice and scripting exercises.
 ```bash
 docker build -t my-k6:blazedemo .
 
-```
 docker run --rm \
   -e BASE_URL=https://blazedemo.com \
   -e DURATION=2m -e RAMPUP=20s \
